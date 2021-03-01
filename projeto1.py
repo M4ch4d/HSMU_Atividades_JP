@@ -6,10 +6,10 @@ Crie um programa que exiba todos os impostos a serem pagos pela empresa, conside
 
 """
 
-valor = 56.300
+valor = int(input('Digite o valor a ser calculado: '))
+
 iss = (valor * 4)/100
 icms = ((18 * valor)/100)
-print('O valor a ser pago em ICMS pelo projeto do restaurente será de:', icms)
-print('O valor a ser pago em tributos ISS pelo projeto do restaurente será de:', iss)
-
+print(f'O valor a ser pago em ICMS pelo projeto do restaurente será de: {icms:.2f}')
+print(f'O valor a ser pago em tributos ISS pelo projeto do restaurente será de: {iss:.2f}')
 
